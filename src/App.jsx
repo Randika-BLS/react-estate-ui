@@ -1,7 +1,14 @@
+import Navbar from "./components/navbar/Navbar";
+import "./layout.scss";
+import HomePage from "./pages/homePage/homePage";
+
 function App() {
   return (
-    <div>Hello World</div>
-  )
+    <div className="layout">
+      <Navbar />
+      <HomePage />
+    </div>
+  );
 }
 
-export default App
+export default App;
